@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.test.com.Cross_Browser"/>
+      <class name="org.test.com.Priority_Test"/>
+      <class name="org.test.com.Parallel_Test"/>
+      <class name="org.test.com.Grouping_Test"/>
+      <class name="org.test.com.Invocation_Count"/>
+      <class name="org.test.com.Data_Provider"/>
+      <class name="org.test.com.Exception_Test"/>
+      <class name="org.test.com.Dependency_Test"/>
+      <class name="org.test.com.Time_Out"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

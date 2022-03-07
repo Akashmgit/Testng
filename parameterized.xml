@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<parameter name="empName" value="akash"></parameter>
+			<parameter name="empId" value="23"></parameter>
+			<class name="org.test.com.Paramaterized_Test"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
